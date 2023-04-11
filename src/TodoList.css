@@ -1,0 +1,62 @@
+.todoList{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 20px;
+    background-color: rgb(109, 109, 162);
+    margin-bottom: 20px;
+    left: -30px;
+    border-radius: 10px;
+    color: white;
+    top: 30px;
+    height: 50px;
+    width: 220px;
+}
+.remove{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:15px;
+    left: 180px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.task{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.Logo{
+    position: relative;
+    left: 40px;
+    color: white;
+}
+.header .taskInput{
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: auto;
+}
+.header .addTask{
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
